@@ -1,0 +1,660 @@
+/*
+
+Theme Name: Hospice Virtual Flower Garden
+
+Description: A custom child theme for oceanwp
+
+Version: 1.0
+
+Author: Damian O'Rourke
+
+Author URI: https://www.damianorourke.info
+
+Template: oceanwp
+
+*/
+
+
+
+/* General Custom CSS */
+
+
+
+.topText{
+
+  position: absolute;
+
+  top: 20px;
+
+  left: 16px;
+
+  color: black;
+
+  font-size: 2em;
+
+}
+
+
+
+.eircode .optional{
+
+	color: red;
+
+}
+
+
+
+.eircode .optional:after{
+
+	content: '*';
+
+}
+
+
+
+.top-bar-heading{
+
+  color: #000;
+
+  margin: 0 0 10px;
+
+  font-size: 18px;
+
+  font-weight: 300;
+
+}
+
+
+
+#top-bar{
+
+  padding-bottom: 0;
+
+}
+
+
+
+.top-bar-icon{
+
+  position: relative;
+
+  top: -5px;
+
+}
+
+.oceanwp-mobile-menu-icon a{
+
+  color: #fff;
+
+}
+
+
+
+#site-navigation-wrap .dropdown-menu >li >a{
+
+  color: #fff;
+
+}
+
+
+
+
+
+#site-header{
+
+  background-color: transparent;
+
+  border-color: transparent;
+
+}
+
+
+
+#site-header-inner{
+
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+}
+
+
+
+.fifty{
+
+    display: inline;
+
+  	/* float: left; */
+
+    box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    width: 50%;
+
+  }
+
+
+
+.top-bar-menu{
+
+  margin: 0;
+
+}
+
+
+
+#topbar-template{
+
+  padding: 0 8px;
+
+}
+
+
+
+#top-bar-content{
+
+  float: none;
+
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+}
+
+
+
+#topbar-template{
+
+  display: block;
+
+  width: 100%;
+
+  overflow: auto;
+
+}
+
+
+
+.top-bar-menu{
+
+  color: #000;
+
+  float: right;
+
+}
+
+
+
+.top-bar-menu li{
+
+  display: inline;
+
+  float: left;
+
+  font-size: 18px;
+
+  font-weight: 300;
+
+  font-family: lato;
+
+}
+
+
+
+#menu-main-menu .woo-menu-icon,  #menu-main-menu .wcmenucart-toggle-cart, #menu-main-menu toggle-cart-widget{
+
+  display: none;
+
+}
+
+
+
+.background{
+
+  background-color: #337bb3;
+
+    /* background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+
+    background-size: 100%;
+
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#1c4464),color-stop(100%,#337bb3));
+
+    background-image: -moz-linear-gradient(top,#1c4464,#337bb3);
+
+    background-image: -webkit-linear-gradient(top,#1c4464,#337bb3);
+
+    background-image: linear-gradient(to bottom,#1c4464,#337bb3); */
+
+
+
+    background-image: url('https://hospicevirtualflowergarden.com/wp-content/themes/oceanwp-child/img/banner_copy.png');
+
+    background-size: cover;
+
+    background-position: top center;
+
+    background-repeat: none;
+
+  min-height: 200px;
+
+  width: 100%;
+
+  display: block;
+
+  overflow: auto;
+
+}
+
+
+
+.inner-after-header{
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  width: 100%;
+
+}
+
+
+
+.inner-after-content{
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  width: 100%;
+
+  padding-top: 100px;
+
+}
+
+
+
+.main-title, .sfh-sub-title, .sfh-title{
+
+  color: #fff;
+
+  text-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+
+}
+
+
+
+.sfh-sub-title{
+
+  font-size: 18px;
+
+    font-family: 'alegreya';
+
+    font-style: italic;
+
+    font-weight: 400;
+
+}
+
+
+
+.main-title, .sfh-title{
+
+  font-size: 30px;
+
+}
+
+
+
+.social-menu-inner {
+
+  height: 50px !important;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.donate a {
+
+    background-color: #ffca00;
+
+    border: 0 none;
+
+    border-radius: 3px;
+
+    box-shadow: 0 5px 0 #cca200;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    padding: 0.625em 1.25em;
+
+    text-align: center;
+
+    text-decoration: inherit;
+
+    text-transform: uppercase;
+
+    transition: all 0.1s linear 0s;
+
+    margin-left: 12px;
+
+  color: #205576;
+
+    font-size: 22px;
+
+}
+
+
+
+.footer-one{
+
+background-color: #26272b;
+
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+
+background-size: 100%;
+
+background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#000000),color-stop(100%,#424548));
+
+background-image: -moz-linear-gradient(top,#000000,#424548);
+
+background-image: -webkit-linear-gradient(top,#000000,#424548);
+
+background-image: linear-gradient(to bottom,#000000,#424548);
+
+min-height: 20px;
+
+overflow: auto;
+
+display: block;
+
+color: #fff;
+
+padding: 80px 0;
+
+}
+
+
+
+.yellow{
+
+  color: #ffca00;
+
+}
+
+
+
+
+
+.inner-fifty-margin{
+
+  display: block;
+
+  width: 50%;
+
+  margin: 0 auto;
+
+}
+
+
+
+
+
+/* animation page */
+
+
+
+#video{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+
+
+.divA, .divA:visited, .divA:active {
+    width: 46%;
+    margin: 20px 1% 0 1%;
+    display: inline-block;
+    float: left;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+.divA a{
+  color: black;
+  text-decoration: none;
+}
+
+.divA:hover {
+    background: lightgrey;
+    border-color: lightgrey;
+    opacity: 0.3;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divA a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+#screen{
+  padding: 20px;
+}
+
+@media screen and (max-width: 320px){
+  .divA p{
+    font-size: 10px;
+  }
+}
+
+
+body.page-id-222 .inner-after-content, body.page-id-26 .inner-after-content{
+
+  width: 100%;
+
+  max-width: 100%;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+body.page-id-222 .background, body.page-id-26 .background, body.page-id-263 .background{
+
+  margin-bottom: 0 !important;
+
+}
+
+
+
+body.home .oceanwp-row>.span_1_of_3{
+
+  width: 100%!important;
+
+}
+
+
+
+
+
+/* animation page */
+
+
+
+#video{
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+
+
+.shadow {
+
+  display: flex;
+
+  justify-content: center;
+
+  background-color: black;
+
+  opacity: 0.3;
+
+}
+
+
+
+.main{
+
+  position: relative;
+
+  text-align: center;
+
+  color: white;
+
+}
+
+.centered {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  opacity: 1;
+
+  font-size: 2em;
+
+  color: #000;
+
+  width: 320px;
+
+}
+
+
+
+.divA, .divA:visited, .divA:active{
+
+  width: 46%;
+
+  margin: 0 1%;
+
+  display: inline-block;
+
+  float: left;
+
+  border: 1px solid white;
+
+  border-radius: 10px;
+
+  box-sizing: border-box;
+
+  -webkit-boxsizing: border-box;
+
+  text-decoration: none;
+
+  color: #000;
+
+}
+
+
+
+.divA:hover{
+
+  background: #000;
+
+  border-color: #000;
+
+  color: #fff;
+
+  text-decoration: none;
+
+}
+
+
+
+
+
+/*
+
+Desktop Styles
+
+================================================== */
+
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+
+
+@media only screen and (min-width: 768px) {
+
+  /* Add your Desktop Styles here */
+
+
+
+}
+
+
+
+
+
+
+
+/*
+
+Mobile Styles
+
+================================================== */
+
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+
+
+    @media only screen and (max-width: 767px) {
+
+      /* Add your Mobile Styles here */
+
+
+
+
+
+
+    }
+
+
+
+    @media only screen and (min-width: 767px) and (max-width: 1024px) {
+
+      /* Add your Mobile Styles here */
+
+
+
+
+    }
+
