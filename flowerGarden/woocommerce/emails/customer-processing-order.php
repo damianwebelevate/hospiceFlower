@@ -25,13 +25,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
-
+
+<?php
+
+$name = 'Sunflower';
+foreach ( $order->get_items() as $item_id => $item ) {
+   $name = $item->get_name();
+}
+
+?>
+
+
 
 
 <?php /* translators: %s: Customer first name */ ?>
 <p><em><?php printf( esc_html__( 'Dear %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></em></p>
 
-<p>Thank you for growing a sunflower in the Hospice Garden</p>
+<p>Thank you for growing a <?php echo '<strong>'.$name.'</strong>'; ?> in the Hospice Garden</p>
 <p>We appreciate your support.</p>
 <?php /* translators: %s: Order number */ ?>
 <p><?php printf( esc_html__( 'Your donation %s, has been received and is now being processed. Your donation details are shown below for your reference:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>

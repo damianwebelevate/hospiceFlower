@@ -36,6 +36,9 @@ if(is_page('sunflower')){
 if(is_page('tulip')){
 	$imageSrc = "style='background-image: url(".get_stylesheet_directory_uri()."/images/backgrounds/tulip.png" .")'";
 }
+if(is_page('contact')){
+	$imageSrc = "style='background-image: url(".get_stylesheet_directory_uri()."/images/backgrounds/sunflower.png" .")'";
+}
 if(is_page('checkout') || is_page('basket')){
 
 global $woocommerce;
@@ -50,7 +53,9 @@ foreach($items as $item => $values) {
     // echo "  Price: ".$price."<br>";
 		$ident = strtolower(str_replace(" ", "", $_product->get_title()));
 }
-
+  if($ident == 'redrose'){
+    $ident = 'red-rose';
+  }
 	$imageSrc = "style='background-image: url(".get_stylesheet_directory_uri()."/images/backgrounds/".$ident.".png" .")'";
 }
 

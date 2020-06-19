@@ -215,7 +215,7 @@ function sendEmailReceipt($recipient, $productId, $fName){
 	        <table border="0" cellpadding="0" cellspacing="0" width="600" style="background-color:#ffffff;border:1px solid #e5e5e5; border-top: none; border-bottom: none;" >
 	          <tbody>
 	            <tr>
-	              <td valign="top" id="m_6874048694757159589body_content" style="background-color:#ffffff">
+	              <td valign="top" style="background-color:#ffffff">
 	                <table border="0" cellpadding="20" cellspacing="0" width="100%">
 	                  <tbody>
 	                    <tr>
